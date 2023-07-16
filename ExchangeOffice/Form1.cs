@@ -17,7 +17,7 @@ namespace ExchangeOffice
 
 		private async Task GetCurrency()
 		{
-			string[] moneyType = { "EUR", "USD", "GBP", "AUD", "CHF", "JPY", "SAR" };
+			string[] moneyType = { "EUR", "USD", "GBP", "AUD", "CHF", "JPY", "SAR","CAD" ,"KWD","AZN"};
 			using (HttpClient client = new HttpClient())
 			{
 				foreach (string money in moneyType)
